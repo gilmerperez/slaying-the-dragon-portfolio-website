@@ -92,20 +92,14 @@
 }
 
 /* md */
-/* @media (min-width: 768px) {
-    
-} */
+/* @media (min-width: 768px) {} */
 
 /* lg */
 @media (min-width: 1024px) {
   .about {
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-  }
-
-  .about__content {
-    gap: 1.5rem;
+    align-items: center;
   }
 
   .about__title {
@@ -153,6 +147,4 @@
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {
-    
-} */
+/* @media (min-width: 1536px) {} */

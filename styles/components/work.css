@@ -16,7 +16,7 @@
 
 .work__project-title {
   font-size: var(--size-base);
-  margin: 1rem auto;
+  margin-bottom: 1rem;
 }
 
 .work__img-wrapper {
@@ -39,7 +39,7 @@
   background-color: rgba(79, 70, 229, 0.3);
 }
 
-.work__project::not(:last-child) {
+.work__project:not(:last-child) {
   margin-bottom: 5rem;
 }
 
@@ -76,7 +76,7 @@
 
   .work__project-title {
     font-size: var(--size-lg);
-    margin: 1.5rem auto;
+    margin-bottom: 1.5rem;
   }
 
   .work__project-description1 {
@@ -90,11 +90,6 @@
   }
 
   .work__project-btn {
-    font-size: var(--size-base);
-  }
-
-  .work__project-subtitle {
-    display: block;
     font-size: var(--size-base);
   }
 }
@@ -184,7 +179,7 @@
     font-size: var(--size-xs);
   }
 
-  .work__project::not(:last-child) {
+  .work__project:not(:last-child) {
     margin-bottom: 0;
   }
 
