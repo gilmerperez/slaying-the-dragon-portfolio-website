@@ -14,13 +14,13 @@ const darkMode = () => {
       localStorage.setItem("theme", "light-mode");
     } else {
       localStorage.removeItem("theme");
-      document.body.removeAttribute('class');
+      document.body.removeAttribute("class");
     }
   };
 
-  //   Events
+  // Events
   themeToggleBtns.forEach((btn) =>
-    btn.addEventListener("click", () => handleThemeToggle)
+    btn.addEventListener("click", handleThemeToggle)
   );
 };
 
